@@ -1,16 +1,20 @@
 # Bake
 
-Bake is a tool for baking Python scripts into your terminal, making it easier to run your Python scripts as terminal commands. **Currently supports macOS only**.
-
+Bake is a tool for baking Python scripts into your terminal, making it easier to run your Python scripts as terminal
+commands. **Currently supports macOS only**.
 
 ## ⚠️ Important Notice
 
-**Bake has undergone a complete rewrite**. Older versions of Bake will no longer function with this new codebase.
+[02-09-2025] Bake has been written from the ground up and is now called Bake-2.0 You can download it here
+at [bake-2.0](https://www.github.com/izaan17/bake-2.0).
+
+[12-12-2024] **Bake has undergone a complete rewrite**. Older versions of Bake will no longer function with this new
+codebase.
 
 ### What should I do if I'm using an old version?
 
-To migrate to the latest version, simply follow the installation instructions of the [installer script](#installation--setup).
-
+To migrate to the latest version, simply follow the installation instructions of
+the [installer script](#installation--setup).
 
 ## Installation & Setup
 
@@ -18,7 +22,8 @@ To get started with the latest version of Bake, follow these steps:
 
 ### Step 1: Download the Bake Installer
 
-In order for Bake to function correctly, you need to download and install the `bake` installer. This will allow you to set up Bake as a global command in your terminal.
+In order for Bake to function correctly, you need to download and install the `bake` installer. This will allow you to
+set up Bake as a global command in your terminal.
 
 You can find the `bake` installer in the [Bake Installer GitHub repository](https://github.com/Izaan17/BakeInstaller).
 
@@ -30,12 +35,12 @@ Once installed, you can test run Bake with the version command:
 bake -v
 ```
 
-
 ## Usage
 
 ### General Command
 
-Bake allows you to turn your Python scripts into terminal commands. Use the following command to bake a new Python script:
+Bake allows you to turn your Python scripts into terminal commands. Use the following command to bake a new Python
+script:
 
 ```zsh
 bake COMMAND_NAME PYTHON_SOURCE_FILE
@@ -52,11 +57,9 @@ bake myscript myscript.py
 
 This will bake the `myscript.py` Python script and assign it the command `myscript`.
 
-
 ## Created Command Showcase
 
 ![Bake Tutorial](https://imgur.com/T57lKb8.gif)
-
 
 ## Available Flags
 
@@ -98,6 +101,7 @@ bake -d COMMAND_NAME   # Delete a baked command
 ### Edit Script Directly
 
 You can also edit the contents of the target script by using the `-es` flag:
+
 ```zsh
 bake -es COMMAND_NAME # Edit the script contents with the respective application
 ```
@@ -109,7 +113,6 @@ To check which version of Bake you're using, run:
 ```zsh
 bake -v
 ```
-
 
 ## Updating Bake
 
@@ -127,9 +130,10 @@ bake -fu
 
 This will pull the latest version from the Git repository and update your Bake installation.
 
-
 ## Conclusion
 
-With Bake, managing and running your Python scripts as terminal commands has never been easier. Install and update Bake as needed, and enjoy a streamlined development process.
+With Bake, managing and running your Python scripts as terminal commands has never been easier. Install and update Bake
+as needed, and enjoy a streamlined development process.
 
-Don't forget to download the Bake installer from the [GitHub repository](https://github.com/Izaan17/BakeInstaller) to ensure everything works properly.
+Don't forget to download the Bake installer from the [GitHub repository](https://github.com/Izaan17/BakeInstaller) to
+ensure everything works properly.
